@@ -325,6 +325,7 @@ main h1 {
 .photo-wrap {
   display: flex;
   flex-direction: row;
+  align-items: flex-start;
 }
 .photo-wrap .photo:not(:last-child) {
   margin-right: 1rem;
