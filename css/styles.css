@@ -455,14 +455,15 @@ main h1 {
 
 /* CONTACT-INFO
 ---------------------------------- */
-#contact-info {
-
+#contact-info p {
+  font-size: clamp(1rem, .85rem + 1vw, 1.35rem);
+  font-weight: bold;
 }
-.contact-info-wrapper {
+/* .contact-info-wrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
-}
+} */
 
 /* FOOTER
 ---------------------------------- */
