@@ -224,6 +224,10 @@ main h1 {
 } */
 .product-lineup li img {
   border: 10px solid var(--blue-darker);
+  transition: .3s linear;
+}
+.product-lineup li img:hover {
+  filter: brightness(1.25);
 }
 .recap-img-caption { 
   background: linear-gradient(to top, var(--blue-dark) 80%, #000);
