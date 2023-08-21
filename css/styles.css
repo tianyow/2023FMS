@@ -175,7 +175,7 @@ main {
 }
 main h1 {
   color: #fff;
-  font-size: clamp(2rem, 3vw + 1.5rem, 5rem);
+  font-size: clamp(2.1rem, 1.8vw + 1rem, 4rem);
   text-align: center;
   letter-spacing: 1.5px;
   filter: drop-shadow(0 0 15px var(--blue-light));
@@ -196,8 +196,8 @@ main h1 {
   transform: skewX(-10deg);
 }
 .intro p {
-  font-size: clamp(1rem, 1.5vw, 1.35rem);
-  line-height: 1.5;
+  font-size: clamp(1rem, 1.5vw, 1.25rem);
+  line-height: 1.75;
   text-align: left;
 }
 .product-lineup {
